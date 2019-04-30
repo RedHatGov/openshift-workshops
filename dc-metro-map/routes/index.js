@@ -46,7 +46,7 @@ function wmataJsonToGeoJson(jsonData) {
               coordinates: [item['Lon'], item['Lat']]
           },
           properties: {
-              title: "BusJJJ #" + item['VehicleID'],
+              title: "BusJJ #" + item['VehicleID'],
               description: item['TripHeadsign'],
               'marker-size': "small",
               "marker-color": markerColor,
